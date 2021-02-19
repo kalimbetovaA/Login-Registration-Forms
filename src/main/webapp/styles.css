@@ -35,7 +35,12 @@ label{
 button{
     background: #2196f3;
     border: none;
-    border-radius: 5px;
+    border-radius: 45px;
     padding: 10px 15px;
     color: white;
+}
+p.error {
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: lightcoral;
 }

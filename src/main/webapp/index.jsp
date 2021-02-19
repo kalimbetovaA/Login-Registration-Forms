@@ -14,6 +14,10 @@
     <a href="login.jsp">LogIn</a>
 </nav>
 
-<h2>This is the main page</h2>
+<h2>
+    This is the main page
+    <p>Hello <%=session.getAttribute("username")%></p>
+</h2>
+
 </body>
 </html>
